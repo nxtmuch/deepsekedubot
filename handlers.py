@@ -5,7 +5,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 
 
-from app.generate import ai_generate
+from generate import ai_generate
 
 CHANNEL_ID = "-1002624384393"
 
