@@ -2,7 +2,7 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from config import TG_TOKEN
 
-from app.handlers import router
+from handlers import router
 
 
 from telegram.ext import ApplicationBuilder, MessageHandler, filters
